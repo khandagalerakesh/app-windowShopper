@@ -7,29 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81E692F525DEFDB6002E9691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E692F425DEFDB6002E9691 /* AppDelegate.swift */; };
-		81E692F925DEFDB6002E9691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E692F825DEFDB6002E9691 /* ViewController.swift */; };
-		81E692FC25DEFDB6002E9691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E692FA25DEFDB6002E9691 /* Main.storyboard */; };
-		81E692FE25DEFDB9002E9691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E692FD25DEFDB9002E9691 /* Assets.xcassets */; };
-		81E6930125DEFDB9002E9691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E692FF25DEFDB9002E9691 /* LaunchScreen.storyboard */; };
-		81E6931925DF0E43002E9691 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6931825DF0E43002E9691 /* CurrencyTextField.swift */; };
-		81E6931E25DF1070002E9691 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6931D25DF1070002E9691 /* Wage.swift */; };
+		814A490F25E0599000ADBCE8 /* swiftui_app_windowShopperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A490E25E0599000ADBCE8 /* swiftui_app_windowShopperApp.swift */; };
+		814A491125E0599000ADBCE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A491025E0599000ADBCE8 /* ContentView.swift */; };
+		814A491325E0599300ADBCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814A491225E0599300ADBCE8 /* Assets.xcassets */; };
+		814A491625E0599300ADBCE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814A491525E0599300ADBCE8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81E692F125DEFDB6002E9691 /* swift-app-windowShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-app-windowShopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81E692F425DEFDB6002E9691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81E692F825DEFDB6002E9691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81E692FB25DEFDB6002E9691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		81E692FD25DEFDB9002E9691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81E6930025DEFDB9002E9691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81E6930225DEFDB9002E9691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81E6931825DF0E43002E9691 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
-		81E6931D25DF1070002E9691 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		814A490B25E0599000ADBCE8 /* swiftui-app-windowShopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-app-windowShopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814A490E25E0599000ADBCE8 /* swiftui_app_windowShopperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_app_windowShopperApp.swift; sourceTree = "<group>"; };
+		814A491025E0599000ADBCE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		814A491225E0599300ADBCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814A491525E0599300ADBCE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		814A491725E0599300ADBCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		81E692EE25DEFDB6002E9691 /* Frameworks */ = {
+		814A490825E0599000ADBCE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,96 +33,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		81E692E825DEFDB6002E9691 = {
+		814A490225E0599000ADBCE8 = {
 			isa = PBXGroup;
 			children = (
-				81E692F325DEFDB6002E9691 /* swift-app-windowShopper */,
-				81E692F225DEFDB6002E9691 /* Products */,
+				814A490D25E0599000ADBCE8 /* swiftui-app-windowShopper */,
+				814A490C25E0599000ADBCE8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		81E692F225DEFDB6002E9691 /* Products */ = {
+		814A490C25E0599000ADBCE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81E692F125DEFDB6002E9691 /* swift-app-windowShopper.app */,
+				814A490B25E0599000ADBCE8 /* swiftui-app-windowShopper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81E692F325DEFDB6002E9691 /* swift-app-windowShopper */ = {
+		814A490D25E0599000ADBCE8 /* swiftui-app-windowShopper */ = {
 			isa = PBXGroup;
 			children = (
-				81E6930F25DF0128002E9691 /* Model */,
-				81E6931025DF0130002E9691 /* View */,
-				81E6931125DF0136002E9691 /* Controller */,
-				81E692F425DEFDB6002E9691 /* AppDelegate.swift */,
-				81E692FA25DEFDB6002E9691 /* Main.storyboard */,
-				81E692FD25DEFDB9002E9691 /* Assets.xcassets */,
-				81E692FF25DEFDB9002E9691 /* LaunchScreen.storyboard */,
-				81E6930225DEFDB9002E9691 /* Info.plist */,
+				814A490E25E0599000ADBCE8 /* swiftui_app_windowShopperApp.swift */,
+				814A491025E0599000ADBCE8 /* ContentView.swift */,
+				814A491225E0599300ADBCE8 /* Assets.xcassets */,
+				814A491725E0599300ADBCE8 /* Info.plist */,
+				814A491425E0599300ADBCE8 /* Preview Content */,
 			);
-			path = "swift-app-windowShopper";
+			path = "swiftui-app-windowShopper";
 			sourceTree = "<group>";
 		};
-		81E6930F25DF0128002E9691 /* Model */ = {
+		814A491425E0599300ADBCE8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				81E6931D25DF1070002E9691 /* Wage.swift */,
+				814A491525E0599300ADBCE8 /* Preview Assets.xcassets */,
 			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		81E6931025DF0130002E9691 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				81E6931825DF0E43002E9691 /* CurrencyTextField.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		81E6931125DF0136002E9691 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				81E692F825DEFDB6002E9691 /* ViewController.swift */,
-			);
-			path = Controller;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81E692F025DEFDB6002E9691 /* swift-app-windowShopper */ = {
+		814A490A25E0599000ADBCE8 /* swiftui-app-windowShopper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81E6930525DEFDB9002E9691 /* Build configuration list for PBXNativeTarget "swift-app-windowShopper" */;
+			buildConfigurationList = 814A491A25E0599300ADBCE8 /* Build configuration list for PBXNativeTarget "swiftui-app-windowShopper" */;
 			buildPhases = (
-				81E692ED25DEFDB6002E9691 /* Sources */,
-				81E692EE25DEFDB6002E9691 /* Frameworks */,
-				81E692EF25DEFDB6002E9691 /* Resources */,
+				814A490725E0599000ADBCE8 /* Sources */,
+				814A490825E0599000ADBCE8 /* Frameworks */,
+				814A490925E0599000ADBCE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "swift-app-windowShopper";
-			productName = "swift-app-windowShopper";
-			productReference = 81E692F125DEFDB6002E9691 /* swift-app-windowShopper.app */;
+			name = "swiftui-app-windowShopper";
+			productName = "swiftui-app-windowShopper";
+			productReference = 814A490B25E0599000ADBCE8 /* swiftui-app-windowShopper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		81E692E925DEFDB6002E9691 /* Project object */ = {
+		814A490325E0599000ADBCE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					81E692F025DEFDB6002E9691 = {
+					814A490A25E0599000ADBCE8 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 81E692EC25DEFDB6002E9691 /* Build configuration list for PBXProject "swift-app-windowShopper" */;
+			buildConfigurationList = 814A490625E0599000ADBCE8 /* Build configuration list for PBXProject "swiftui-app-windowShopper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,64 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 81E692E825DEFDB6002E9691;
-			productRefGroup = 81E692F225DEFDB6002E9691 /* Products */;
+			mainGroup = 814A490225E0599000ADBCE8;
+			productRefGroup = 814A490C25E0599000ADBCE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81E692F025DEFDB6002E9691 /* swift-app-windowShopper */,
+				814A490A25E0599000ADBCE8 /* swiftui-app-windowShopper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81E692EF25DEFDB6002E9691 /* Resources */ = {
+		814A490925E0599000ADBCE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E6930125DEFDB9002E9691 /* LaunchScreen.storyboard in Resources */,
-				81E692FE25DEFDB9002E9691 /* Assets.xcassets in Resources */,
-				81E692FC25DEFDB6002E9691 /* Main.storyboard in Resources */,
+				814A491625E0599300ADBCE8 /* Preview Assets.xcassets in Resources */,
+				814A491325E0599300ADBCE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		81E692ED25DEFDB6002E9691 /* Sources */ = {
+		814A490725E0599000ADBCE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E6931925DF0E43002E9691 /* CurrencyTextField.swift in Sources */,
-				81E6931E25DF1070002E9691 /* Wage.swift in Sources */,
-				81E692F925DEFDB6002E9691 /* ViewController.swift in Sources */,
-				81E692F525DEFDB6002E9691 /* AppDelegate.swift in Sources */,
+				814A491125E0599000ADBCE8 /* ContentView.swift in Sources */,
+				814A490F25E0599000ADBCE8 /* swiftui_app_windowShopperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		81E692FA25DEFDB6002E9691 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81E692FB25DEFDB6002E9691 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		81E692FF25DEFDB9002E9691 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81E6930025DEFDB9002E9691 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		81E6930325DEFDB9002E9691 /* Debug */ = {
+		814A491825E0599300ADBCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		81E6930425DEFDB9002E9691 /* Release */ = {
+		814A491925E0599300ADBCE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,40 +262,44 @@
 			};
 			name = Release;
 		};
-		81E6930625DEFDB9002E9691 /* Debug */ = {
+		814A491B25E0599300ADBCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-app-windowShopper/Preview Content\"";
 				DEVELOPMENT_TEAM = 3FDRJJ8M5S;
-				INFOPLIST_FILE = "swift-app-windowShopper/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-app-windowShopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.self.learning.swift-app-windowShopper";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.learning.swiftui-app-windowShopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		81E6930725DEFDB9002E9691 /* Release */ = {
+		814A491C25E0599300ADBCE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-app-windowShopper/Preview Content\"";
 				DEVELOPMENT_TEAM = 3FDRJJ8M5S;
-				INFOPLIST_FILE = "swift-app-windowShopper/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-app-windowShopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.self.learning.swift-app-windowShopper";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.self.learning.swiftui-app-windowShopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -352,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81E692EC25DEFDB6002E9691 /* Build configuration list for PBXProject "swift-app-windowShopper" */ = {
+		814A490625E0599000ADBCE8 /* Build configuration list for PBXProject "swiftui-app-windowShopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81E6930325DEFDB9002E9691 /* Debug */,
-				81E6930425DEFDB9002E9691 /* Release */,
+				814A491825E0599300ADBCE8 /* Debug */,
+				814A491925E0599300ADBCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81E6930525DEFDB9002E9691 /* Build configuration list for PBXNativeTarget "swift-app-windowShopper" */ = {
+		814A491A25E0599300ADBCE8 /* Build configuration list for PBXNativeTarget "swiftui-app-windowShopper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81E6930625DEFDB9002E9691 /* Debug */,
-				81E6930725DEFDB9002E9691 /* Release */,
+				814A491B25E0599300ADBCE8 /* Debug */,
+				814A491C25E0599300ADBCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 81E692E925DEFDB6002E9691 /* Project object */;
+	rootObject = 814A490325E0599000ADBCE8 /* Project object */;
 }
